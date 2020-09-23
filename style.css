@@ -34,6 +34,22 @@ li b{
 .active{
     background-color: #ff7e67;
 }
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 30px;
+}
+
+td, th {
+    border: 1px solid #ff7e67;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #637373;
+}
 
 nav {
     margin: 0;

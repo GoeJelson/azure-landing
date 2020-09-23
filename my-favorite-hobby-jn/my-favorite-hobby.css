@@ -1,0 +1,37 @@
+html {
+	background-color: #fcdc7b;
+}
+header {
+  background-color: #dc8c24;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+body {
+	background-color: #7094b7;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;	
+}
+article {
+	background-color: #c6b3b0;
+	padding: 30px;
+	text-align: left;
+	font-size: 20px;
+	color: black;
+}
+div {
+	height: 100%;
+	width: 50%;
+	background: #dc8c24;
+	transition: width 2s;	
+}
+div:hover {
+	width: 100%;
+}
+
+a:hover {
+	background-color: yellow;
+}
