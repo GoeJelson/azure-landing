@@ -1,0 +1,11 @@
+button{
+   height: 50px;
+   width: 50px;
+   border: none;
+   text-align: center;
+   display: inline-block; 
+   cursor: pointer;
+}
+ input{ 
+     text-align: right;
+ }

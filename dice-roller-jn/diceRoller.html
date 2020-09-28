@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dice Roller</title>
+        <link rel="stylesheet" href="rollerStyle.css">
+        <script src="rollerScript.js"></script>
+    </head>
+    <header>
+        <h2>About Page: On page arrival the dice are pre-rolled. Press the die to roll or just 
+            press Enter. This application utilizes a JavaScript function rollDice to fill each
+            input box with a random number that would appear on a normal six-sided die.</h2>
+    </header>
+    <body onload="rollDice()">
+        <div><button onclick="rollDice()" autofocus>Roll Dice</button></div>
+        <input type="text" id="a0" value="" size="4" disabled>
+        <input type="text" id="a1" value="" size="4" disabled>
+        <input type="text" id="a2" value="" size="4" disabled>
+        <input type="text" id="a3" value="" size="4" disabled>
+        <input type="text" id="a4" value="" size="4" disabled>
+        <input type="text" id="a5" value="" size="4" disabled>
+    </body>
+</html>
